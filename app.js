@@ -6,7 +6,7 @@ const port = 8000;
 
 
 //Conexão com o banco de dados
-mongoose.connect("mongodb+srv://ricardo_nunes:ricardo_nunes@cluster0.jlykd.mongodb.net/Biblioteca?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect("Meu banco", { useNewUrlParser: true, useUnifiedTopology: true });
 
 //Collection
 const Biblioteca = mongoose.model("livros", {
